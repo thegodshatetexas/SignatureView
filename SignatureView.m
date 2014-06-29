@@ -432,6 +432,8 @@
     
     // make data provider with data.
     CGDataProviderRef provider = CGDataProviderCreateWithData(NULL, buffer2, myDataLength, NULL);
+    free(buffer);
+    // free(buffer2);
     
     // prep the ingredients
     int bitsPerComponent = 8;
