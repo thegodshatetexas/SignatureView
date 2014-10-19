@@ -10,7 +10,7 @@
 @class SignatureViewController;
 
 @protocol SignatureViewControllerDelegate <NSObject>
-- (void) signatureViewController:(SignatureViewController *)viewController didSign:(NSData *)signature;
+- (void) signatureViewController:(SignatureViewController *)viewController didSign:(NSData *)signature signatureName:(NSString *)signatureName;
 @end
 
 
@@ -23,5 +23,4 @@
 - (IBAction)signatureClearTapped:(id)sender;
 - (IBAction)signatureSignTapped:(id)sender;
 - (void)checkSign;
-
 @end

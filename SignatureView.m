@@ -60,6 +60,7 @@
 #import <OpenGLES/EAGL.h>
 #import <OpenGLES/ES1/gl.h>
 #import <OpenGLES/ES1/glext.h>
+#import "SignatureViewController.h"
 
 #define kBrushOpacity		(1.0 / 3.0)
 #define kBrushPixelStep		3
